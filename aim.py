@@ -1,12 +1,12 @@
 import streamlit as st
-import pandas as pd
-import numpy as np
-from sklearn.preprocessing import LabelEncoder
-from sklearn.linear_model import LogisticRegression
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score
-import random
-random.seed(0)
+# import pandas as pd
+# import numpy as np
+# from sklearn.preprocessing import LabelEncoder
+# from sklearn.linear_model import LogisticRegression
+# from sklearn.model_selection import train_test_split
+# from sklearn.metrics import accuracy_score
+# import random
+# random.seed(0)
 
 # st.write(st.__version__)
 
@@ -21,8 +21,8 @@ options = st.selectbox('Please Select',['PowerBI','Preprocessing & predictions']
 
 st.write('\n\n')
 
-if options == 'PowerBI':
-	st.markdown("""<iframe width="600" height="400" src="https://app.powerbi.com/view?r=eyJrIjoiMjUyNDQ2YTYtYWY2Yy00NWU0LWJmYTMtOGY2YjBhZjI5NTM2IiwidCI6IjZkYjU5OTA5LTYyMjYtNDQ3My05MDYxLWJhZTNjNjRiY2I4NCIsImMiOjEwfQ%3D%3D&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>""",unsafe_allow_html=True)
+# if options == 'PowerBI':
+# 	st.markdown("""<iframe width="600" height="400" src="https://app.powerbi.com/view?r=eyJrIjoiMjUyNDQ2YTYtYWY2Yy00NWU0LWJmYTMtOGY2YjBhZjI5NTM2IiwidCI6IjZkYjU5OTA5LTYyMjYtNDQ3My05MDYxLWJhZTNjNjRiY2I4NCIsImMiOjEwfQ%3D%3D&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>""",unsafe_allow_html=True)
 # else:
 # 	st.set_option('deprecation.showfileUploaderEncoding', False)
 # 	uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
